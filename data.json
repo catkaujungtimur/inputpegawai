@@ -1,4 +1,16 @@
 {
-  "jabatan": ["PLR", "PLR DIPO", "SCHOWING", "MASINIS", "PPKA"],
-  "orang": []
+  "jabatan": [
+    "PLR",
+    "PLR DIPO",
+    "SCHOWING",
+    "MASINIS",
+    "PPKA"
+  ],
+  "orang": [
+    {
+      "nipp": "53595",
+      "nama": "A FADLI",
+      "jabatan": "PPKA"
+    }
+  ]
 }
