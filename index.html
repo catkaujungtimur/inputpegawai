@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Input Data Pegawai &mdash; Catkaujungtimur</title>
+<title>Input Data TTD &mdash; Catkaujungtimur</title>
 <style>
   :root{
     --paper:#fdfcf9; --ink:#1f1c1a; --muted:#6b6560; --line:#d9d4cc;
@@ -138,7 +138,7 @@
 
 <div class="wrap">
   <header class="page">
-    <h1>INPUT DATA PEGAWAI</h1>
+    <h1>INPUT DATA TTD</h1>
     <div class="sub">Nama &middot; NIPP &middot; Jabatan &mdash; sumber data untuk kolom tanda tangan Form Perintah Langsir</div>
   </header>
 
@@ -152,7 +152,7 @@
     <h2>Token GitHub</h2>
     <p class="hint">
       Token disimpan di browser kamu sendiri (localStorage), tidak dikirim ke server manapun selain langsung ke GitHub.
-      Dibutuhkan supaya halaman ini bisa menyimpan perubahan ke repo <code>inputttd</code>.
+      Dibutuhkan supaya halaman ini bisa menyimpan perubahan ke repo <code>inputpegawai</code>.
     </p>
     <div class="token-row">
       <input type="password" id="inpToken" placeholder="github_pat_...">
@@ -163,7 +163,7 @@
       <summary>Cara membuat token</summary>
       <div class="help-body">
         1. GitHub &rarr; foto profil &rarr; <b>Settings</b> &rarr; <b>Developer settings</b> &rarr; <b>Personal access tokens</b> &rarr; <b>Fine-grained tokens</b> &rarr; <b>Generate new token</b>.<br>
-        2. <b>Repository access</b>: pilih <i>Only select repositories</i> &rarr; pilih repo <code>inputttd</code>.<br>
+        2. <b>Repository access</b>: pilih <i>Only select repositories</i> &rarr; pilih repo <code>inputpegawai</code>.<br>
         3. <b>Permissions</b> &rarr; <b>Repository permissions</b> &rarr; cari <b>Contents</b> &rarr; ubah ke <b>Read and write</b>.<br>
         4. <b>Generate token</b>, lalu copy token-nya (hanya tampil sekali) dan paste di kolom atas.
       </div>
@@ -226,7 +226,7 @@
 
   <section class="card">
     <h2>Simpan ke GitHub</h2>
-    <p class="hint">Perubahan di atas baru tersimpan di browser ini. Klik tombol di bawah untuk mengirim (commit) ke repo <code>inputttd</code> supaya bisa diakses dari Form Perintah Langsir.</p>
+    <p class="hint">Perubahan di atas baru tersimpan di browser ini. Klik tombol di bawah untuk mengirim (commit) ke repo <code>inputpegawai</code> supaya bisa diakses dari Form Perintah Langsir.</p>
     <div class="actions-row">
       <button type="button" id="btnSimpanGithub" class="success">Simpan ke GitHub</button>
       <button type="button" id="btnMuatUlang" class="ghost">Muat ulang dari GitHub</button>
@@ -238,10 +238,10 @@
 
 <script>
 const REPO_OWNER = "catkaujungtimur";
-const REPO_NAME = "inputttd";
+const REPO_NAME = "inputpegawai";
 const DATA_PATH = "data.json";
-const LS_TOKEN_KEY = "inputttd_pat_v1";
-const LS_DATA_KEY = "inputttd_localdata_v1";
+const LS_TOKEN_KEY = "inputpegawai_pat_v1";
+const LS_DATA_KEY = "inputpegawai_localdata_v1";
 
 let state = { jabatan: ["PLR","PLR DIPO","SCHOWING","MASINIS","PPKA"], orang: [] };
 let currentSha = null; // sha file data.json di GitHub, dibutuhkan utk update via API
