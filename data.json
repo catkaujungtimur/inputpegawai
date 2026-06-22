@@ -4,13 +4,1017 @@
     "PLR DIPO",
     "SCHOWING",
     "MASINIS",
-    "PPKA"
+    "PPKA",
+    "KONDEKTUR",
+    "KASUBUR",
+    "WKS",
+    "KDR"
   ],
   "orang": [
     {
       "nipp": "53595",
       "nama": "A FADLI",
       "jabatan": "PPKA"
+    },
+    {
+      "nipp": "53590",
+      "nama": "ZAINUL",
+      "jabatan": "SCHOWING"
+    },
+    {
+      "nipp": "59777",
+      "nama": "FENDI K",
+      "jabatan": "SCHOWING"
+    },
+    {
+      "nipp": "53632",
+      "nama": "SUHARTOYO",
+      "jabatan": "SCHOWING"
+    },
+    {
+      "nipp": "42743",
+      "nama": "HADI P",
+      "jabatan": "SCHOWING"
+    },
+    {
+      "nipp": "69473",
+      "nama": "TAUFIK",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "73582",
+      "nama": "YOGI",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "69455",
+      "nama": "DANIAL",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "71508",
+      "nama": "DIAREN",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "70573",
+      "nama": "ROBY P",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "69471",
+      "nama": "QOMARIK",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "71505",
+      "nama": "BAGUS TRI",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "69406",
+      "nama": "SAGA",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "69460",
+      "nama": "NOVAL",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "69467",
+      "nama": "NURDI",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "71510",
+      "nama": "MAHRUS",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "76917",
+      "nama": "IFALDI",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "77832",
+      "nama": "YOGA",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "77520",
+      "nama": "AGUNG",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "50900179",
+      "nama": "RIVAL",
+      "jabatan": "PLR DIPO"
+    },
+    {
+      "nipp": "50900178",
+      "nama": "AINUN",
+      "jabatan": "PLR DIPO"
+    },
+    {
+      "nipp": "50900181",
+      "nama": "FADAL",
+      "jabatan": "PLR DIPO"
+    },
+    {
+      "nipp": "50900180",
+      "nama": "BUYUNG",
+      "jabatan": "PLR DIPO"
+    },
+    {
+      "nipp": "69897",
+      "nama": "A YASIR ARAFAT",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "70406",
+      "nama": "ACHMAD ALFIYAN",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "53581",
+      "nama": "AGUS HARIYANTO",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "60629",
+      "nama": "ANDRIAWAN",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "56519",
+      "nama": "ASEP AGUS",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "69898",
+      "nama": "BAYU HARDI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "45870",
+      "nama": "BUDIANTO",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "70411",
+      "nama": "CANGGI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "53659",
+      "nama": "DIDIK P",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "70906",
+      "nama": "DIMAS P",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "61226",
+      "nama": "DWI CAHYO",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "56533",
+      "nama": "DWI SUGIHERI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "61845",
+      "nama": "EZA W",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "65950",
+      "nama": "FAKTA BAGUS",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "49417",
+      "nama": "HARTONO ARDI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "44146",
+      "nama": "YULI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "70412",
+      "nama": "HIMBA AINUN N",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "71198",
+      "nama": "ILHAM RIZKY",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "61107",
+      "nama": "M SUHARTO",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "44151",
+      "nama": "MATEUS H",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "64102",
+      "nama": "MOH FAIZIN",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "53586",
+      "nama": "MUHLIS M",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "70902",
+      "nama": "NAUFAL B",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "63548",
+      "nama": "NURUL MANAN",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "61191",
+      "nama": "RENDRA",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "69902",
+      "nama": "RIZAL ANNURIS",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "64671",
+      "nama": "JOSI GELAR",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "56545",
+      "nama": "FERRY",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "47291",
+      "nama": "HAFID ASHARI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "45916",
+      "nama": "HARI W.",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "44170",
+      "nama": "HARIADI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "56547",
+      "nama": "HARIK",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "53582",
+      "nama": "HENDRA D.M",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "60764",
+      "nama": "IKHWANUL",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "49315",
+      "nama": "IQBAL",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "61171",
+      "nama": "IRFAN",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "64669",
+      "nama": "IRFANDA",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "45902",
+      "nama": "JATIM",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "61718",
+      "nama": "LARASANDI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "48589",
+      "nama": "NIZAR",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "47007",
+      "nama": "NUR EFENDI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "60810",
+      "nama": "ROSIYANDI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "53592",
+      "nama": "RUDIYANTO",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "48583",
+      "nama": "SOFYAN",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "60844",
+      "nama": "SONI P.",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "53667",
+      "nama": "TACHDI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "63546",
+      "nama": "TANSILUL",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "45894",
+      "nama": "TATOK",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "49245",
+      "nama": "TEGUH WALUYO",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "60768",
+      "nama": "TEZAR",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "49381",
+      "nama": "ZAELANI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "63551",
+      "nama": "ZEIN",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "61495",
+      "nama": "ABADI",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "75408",
+      "nama": "ULHAQ",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "61506",
+      "nama": "ARIES",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "49142",
+      "nama": "ARIS",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "75409",
+      "nama": "BASKARA",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "70417",
+      "nama": "BASTIAN",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "45948",
+      "nama": "DARUL",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "61491",
+      "nama": "DHANU",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "70418",
+      "nama": "DIAN",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "70414",
+      "nama": "DIMAS",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "71980",
+      "nama": "DIO",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "61497",
+      "nama": "FANDY",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "75407",
+      "nama": "FEBRIYAN",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "70545",
+      "nama": "FIRMAN",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "73670",
+      "nama": "GALIH",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "61509",
+      "nama": "MAULANA",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "70546",
+      "nama": "MESOVELIA",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "41644",
+      "nama": "MUJIONO",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "70547",
+      "nama": "NURUMAR",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "75765",
+      "nama": "PRASETYO",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "45950",
+      "nama": "RIDWAN",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "61503",
+      "nama": "RIZAL",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "65023",
+      "nama": "SALEH",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "70415",
+      "nama": "TAMAM",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "41642",
+      "nama": "WASIS",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "53637",
+      "nama": "ZAINUDIN",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "65959",
+      "nama": "ZAKARIA",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "70541",
+      "nama": "ZUHRI",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "56505",
+      "nama": "ANDI I",
+      "jabatan": "PPKA"
+    },
+    {
+      "nipp": "56555",
+      "nama": "IRHAM",
+      "jabatan": "PPKA"
+    },
+    {
+      "nipp": "56549",
+      "nama": "HELMI",
+      "jabatan": "PPKA"
+    },
+    {
+      "nipp": "53643",
+      "nama": "ALIF S",
+      "jabatan": "PPKA"
+    },
+    {
+      "nipp": "56553",
+      "nama": "INDRA DK",
+      "jabatan": "KASUBUR"
+    },
+    {
+      "nipp": "73311",
+      "nama": "DANNY",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "56580",
+      "nama": "RIZKI Z",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "69451",
+      "nama": "BAGUS D",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "53614",
+      "nama": "CHAIRUDIN",
+      "jabatan": "WKS"
+    },
+    {
+      "nipp": "56501",
+      "nama": "JUNAEDI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "45872",
+      "nama": "BAMBANG S",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "50291",
+      "nama": "AGIL",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "49824",
+      "nama": "A SYAIKHU",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "56589",
+      "nama": "SAHIFUL IMRON",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "56587",
+      "nama": "RUSTANA",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "56530",
+      "nama": "DWI BAGUS",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "64726",
+      "nama": "ABDUL ARIF",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "56441",
+      "nama": "LUCKY A",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "60899",
+      "nama": "TEDY K",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "56551",
+      "nama": "HENDI S",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "48540",
+      "nama": "M CHUSNAN",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "53583",
+      "nama": "BUDI W",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "56531",
+      "nama": "DWI BAYU",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "53617",
+      "nama": "IBRAHIM",
+      "jabatan": "PPKA"
+    },
+    {
+      "nipp": "44139",
+      "nama": "HARIYADI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "77317",
+      "nama": "ARIF",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "60965",
+      "nama": "DARMAWAN",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "56537",
+      "nama": "EKO P",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "56528",
+      "nama": "DIMAS P S",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "59750",
+      "nama": "ANDIKA S.",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "61195",
+      "nama": "ABRAHAM",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "49345",
+      "nama": "DWI K",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "49395",
+      "nama": "EGA R",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "65208",
+      "nama": "HERMAWAN",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "56508",
+      "nama": "ANDRIAN",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "70413",
+      "nama": "DEDY P",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "49338",
+      "nama": "EKO B",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "49670",
+      "nama": "RINGGA",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "61177",
+      "nama": "MASHURI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "60774",
+      "nama": "DIAN W",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "45884",
+      "nama": "IMAM M",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "63547",
+      "nama": "NUR BUKHORI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "66171",
+      "nama": "IRFAN",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "70004",
+      "nama": "NIZAR",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "53910",
+      "nama": "SANDI",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "74676",
+      "nama": "ZAKI",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "75803",
+      "nama": "HARITS",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "65015",
+      "nama": "OKY",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "60542",
+      "nama": "CANDRA",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "53866",
+      "nama": "DWI",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "73702",
+      "nama": "YOHAN",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "74594",
+      "nama": "PANDU",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "48584",
+      "nama": "CHAMDAN",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "66051",
+      "nama": "ARIF",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "60402",
+      "nama": "JENI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "73687",
+      "nama": "NUGROHO",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "45911",
+      "nama": "HARI W.",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "53683",
+      "nama": "SIMONS",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "65903",
+      "nama": "BIMAHENDRA",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "73650",
+      "nama": "ADAM RIFAI",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "73642",
+      "nama": "ANDI",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "70658",
+      "nama": "ARTIA",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "72968",
+      "nama": "KUKUH",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "73666",
+      "nama": "FAHRUL",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "75402",
+      "nama": "RIKI",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "60651",
+      "nama": "ARIF",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "46517",
+      "nama": "SAMSUDI",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "44184",
+      "nama": "UUD",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "53700",
+      "nama": "SAMSUL",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "73690",
+      "nama": "RICHARD",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "53674",
+      "nama": "CANDRA",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "73662",
+      "nama": "FAJAR",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "74618",
+      "nama": "EGA",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "62391",
+      "nama": "ARIEF",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "73665",
+      "nama": "ENDRIANTO",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "64668",
+      "nama": "LISTIANTO",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "70901",
+      "nama": "GIANINI",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "69478",
+      "nama": "TEGUH",
+      "jabatan": "PPKA"
+    },
+    {
+      "nipp": "77831",
+      "nama": "RAFI",
+      "jabatan": "PLR"
+    },
+    {
+      "nipp": "70654",
+      "nama": "FAHMI",
+      "jabatan": "KDR"
+    },
+    {
+      "nipp": "73639",
+      "nama": "IRFAN",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "75383",
+      "nama": "ALFAN",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "65144",
+      "nama": "MARSELL",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "48889",
+      "nama": "AGUNG",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "65910",
+      "nama": "BAGAS",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "73646",
+      "nama": "RIFKI",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "53799",
+      "nama": "FERRY",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "75384",
+      "nama": "DHIKA",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "73704",
+      "nama": "YUFLIH",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "64047",
+      "nama": "MUKHLISON",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "56331",
+      "nama": "DWI",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "48996",
+      "nama": "BUDIYONO",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "61488",
+      "nama": "BENNY",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "73644",
+      "nama": "ANGGIT",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "72984",
+      "nama": "MUNIR",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "47006",
+      "nama": "IMAM",
+      "jabatan": "MASINIS"
+    },
+    {
+      "nipp": "48900",
+      "nama": "SAUT",
+      "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "70542",
+      "nama": "HUDA",
+      "jabatan": "KONDEKTUR"
     }
   ]
 }
