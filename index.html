@@ -48,6 +48,9 @@
     font-size:14px; font-weight:700; margin:0 0 4px; text-transform:uppercase;
     letter-spacing:.04em; color:var(--accent);
   }
+  .collapsible-head{ cursor:pointer; user-select:none; display:flex; align-items:center; gap:6px; }
+  .collapsible-head:hover{ opacity:.8; }
+  .collapse-arrow{ display:inline-block; font-size:11px; width:12px; }
   section.card .hint{ color:var(--muted); font-size:12px; margin:0 0 14px; line-height:1.5; }
 
   .token-row{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
@@ -213,14 +216,32 @@
   </section>
 
   <section class="card">
-    <h2>Daftar Data <span class="count-pill" id="totalCount"></span></h2>
-    <div class="search-row">
-      <input type="text" id="filterText" placeholder="Cari nama atau NIPP...">
-      <select id="filterJabatan"><option value="">Semua jabatan</option></select>
+    <h2 class="collapsible-head" id="daftarDataHead">
+      <span class="collapse-arrow" id="daftarDataArrow">&#9656;</span> Daftar Data <span class="count-pill" id="totalCount"></span>
+    </h2>
+    <div id="daftarDataBody" style="display:none;">
+      <div class="search-row">
+        <input type="text" id="filterText" placeholder="Cari nama atau NIPP...">
+        <select id="filterJabatan"><option value="">Semua jabatan</option></select>
+      </div>
+      <div id="tableWrap"></div>
+      <div class="actions-row">
+        <button type="button" class="danger ghost" id="btnHapusSemua">Hapus semua data</button>
+      </div>
     </div>
-    <div id="tableWrap"></div>
+  </section>
+
+  <section class="card">
+    <h2>Export / Import (cadangan pribadi)</h2>
+    <p class="hint">
+      Simpan salinan data ke file di perangkatmu sebagai jaring pengaman pribadi &mdash; berguna kalau suatu saat
+      data di GitHub perlu dipulihkan. Ini terpisah dari "Simpan ke GitHub" di bawah; export/import TIDAK otomatis
+      mengirim apapun ke GitHub.
+    </p>
     <div class="actions-row">
-      <button type="button" class="danger ghost" id="btnHapusSemua">Hapus semua data</button>
+      <button type="button" id="btnExport" class="ghost">Export ke file JSON</button>
+      <button type="button" id="btnImportTrigger" class="ghost">Import dari file JSON</button>
+      <input type="file" id="fileImportData" accept=".json" style="display:none;">
     </div>
   </section>
 
@@ -507,6 +528,62 @@ document.getElementById("btnHapusSemua").addEventListener("click", ()=>{
   markDirty();
   renderTable();
   toast("Semua data dihapus dari tampilan lokal.");
+});
+
+document.getElementById("daftarDataHead").addEventListener("click", ()=>{
+  const body = document.getElementById("daftarDataBody");
+  const arrow = document.getElementById("daftarDataArrow");
+  const isOpen = body.style.display !== "none";
+  body.style.display = isOpen ? "none" : "block";
+  arrow.innerHTML = isOpen ? "&#9656;" : "&#9662;";
+});
+
+/* ---------- Export / Import JSON (cadangan pribadi) ---------- */
+function exportToFile(){
+  const blob = new Blob([JSON.stringify(state, null, 2)], {type:"application/json"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  const d = new Date();
+  const dateStr = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+  a.href = url;
+  a.download = `data-pegawai_${dateStr}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  toast("File JSON diunduh.", "success");
+}
+function importFromFile(file){
+  const reader = new FileReader();
+  reader.onload = (ev)=>{
+    try{
+      const parsed = JSON.parse(ev.target.result);
+      if(!parsed || !Array.isArray(parsed.orang)){ throw new Error("format tidak sesuai (tidak ada 'orang')"); }
+      if(!confirm(`Import akan MENGGANTI seluruh data yang sedang tampil (${state.orang.length} data) dengan isi file ini (${parsed.orang.length} data). Perubahan ini belum tersimpan ke GitHub sampai kamu klik "Simpan ke GitHub". Lanjutkan?`)) return;
+      state = {
+        jabatan: Array.isArray(parsed.jabatan) && parsed.jabatan.length ? parsed.jabatan : ["PLR","PLR DIPO","SCHOWING","MASINIS","PPKA"],
+        orang: parsed.orang
+      };
+      saveLocalData();
+      renderJabatanOptions();
+      renderTable();
+      markDirty();
+      toast(`${parsed.orang.length} data berhasil di-import dari file. Klik "Simpan ke GitHub" untuk menyimpannya secara permanen.`, "success");
+    }catch(err){
+      toast("Gagal membaca file JSON: " + err.message, "error");
+    }
+  };
+  reader.readAsText(file);
+}
+document.getElementById("btnExport").addEventListener("click", exportToFile);
+document.getElementById("btnImportTrigger").addEventListener("click", ()=>{
+  document.getElementById("fileImportData").click();
+});
+document.getElementById("fileImportData").addEventListener("change", (e)=>{
+  const file = e.target.files[0];
+  if(!file) return;
+  importFromFile(file);
+  e.target.value = "";
 });
 
 /* ---------- GitHub API ---------- */
