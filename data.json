@@ -1016,6 +1016,11 @@
       "nipp": "70542",
       "nama": "HUDA",
       "jabatan": "KONDEKTUR"
+    },
+    {
+      "nipp": "12345",
+      "nama": "TES GITHUB",
+      "jabatan": "PPKA"
     }
   ]
 }
